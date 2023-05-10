@@ -1,3 +1,4 @@
+![Langchain](https://github.com/palmiak/python-lib/assets/2342458/6a559422-7d76-4346-978a-f2e714679b43)
 # Kinsta - Hello World - LangChain
 
 An example of how to deploy a Flask application with [LangChain](https://python.langchain.com/en/latest/index.html) on Kinsta App Hosting services.
@@ -27,3 +28,6 @@ To ensure your successful deployment, set the following environment variables:
 # Get it from https://platform.openai.com/account/api-keys
 OPENAI_API_KEY=<YOUR_API_KEY>
 ```
+
+## What is LangChain
+LangChain framework is intended to develop language model-powered applications that are data-aware, agentic, and differentiated. More information is available on the [LangChain](https://python.langchain.com/en/latest/index.html) website.
