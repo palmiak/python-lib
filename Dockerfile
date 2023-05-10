@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["exec gunicorn --bind 0.0.0.0 main:app"]
+CMD ["exec gunicorn main:app"]
