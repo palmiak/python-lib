@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["sh", "-c", "export PORT=$PORT && exec gunicorn --bind 0.0.0.0:${PORT} main:app"]
+CMD ["exec gunicorn --bind 0.0.0.0:${PORT} main:app"]
